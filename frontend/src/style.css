@@ -37,6 +37,7 @@ h1 {
   line-height: 1.1;
 }
 
+/* Tombol */
 button {
   border-radius: 8px;
   border: 1px solid black;
@@ -75,6 +76,7 @@ button:focus-visible {
   border-color: black;
 }
 
+/* Efek Hover Global */
 .global-hover {
   transition: 0.3s ease-in-out;
   cursor: pointer;
@@ -85,6 +87,16 @@ button:focus-visible {
   color: white;
 }
 
+/* Efek Glow */
+.glow-hover {
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.glow-hover:hover {
+  text-shadow: 0 0 10px #c793ff, 0 0 20px #d4a5ff;
+}
+
+/* Light Mode */
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
